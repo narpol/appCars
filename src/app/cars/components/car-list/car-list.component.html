@@ -1,0 +1,20 @@
+<div>
+    <div class="card" *ngFor=" let car of cars" style="width: 18rem;">
+        <img src="{{car.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Id: {{ car.id}}</p>
+          <p class="card-text">Make: {{ car.make}}</p>
+          <p class="card-text"> Year: {{ car.year}}</p>
+          <p class="card-text">Color: {{ car.color}}</p>
+          <p class="card-text">mileage: {{ car.mileage}}</p>
+          <p class="card-text">price: {{ car.price}}</p>
+          <p class="card-text">fuelType: {{ car.fuelType}}</p>
+          <p class="card-text">transmission: {{ car.transmission}}</p>
+          <p class="card-text">engine: {{ car.engine}}</p>
+          <p class="card-text">horsepower: {{ car.horsepower}}</p>
+          <p class="card-text">features: {{ car.features}}</p>
+          <p class="card-text">owners: {{ car.owners}}</p>          
+        </div>
+      </div>
+</div>
